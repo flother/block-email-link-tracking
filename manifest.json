@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Block Email Link Tracking",
+  "version": "0.1.0",
+  "description": "Stop Microsoft tracking every link you click in emails sent through Office 365",
+  "homepage_url": "https://github.com/flother/block-email-link-tracking",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://*.safelinks.protection.outlook.com/*"
+  ],
+  "background": {
+    "scripts": ["blocker.js"]
+  }
+}
