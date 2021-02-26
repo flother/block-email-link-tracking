@@ -10,6 +10,6 @@
     "*://*.safelinks.protection.outlook.com/*"
   ],
   "background": {
-    "scripts": ["blocker.js"]
+    "scripts": ["src/blocker.js"]
   }
 }
